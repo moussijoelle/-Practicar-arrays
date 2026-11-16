@@ -1,27 +1,26 @@
-﻿# Practicar arrays — citas
+# Practicar arrays — citas
 
-Navega un array de citas con botones adelante/atrás.
+Un array de citas con botones para ir adelante y atrás.
 
 ## Qué hace
 
-- Array de objetos `{ texto, autor }`
-- Muestra la cita actual
+- Citas con texto y autor
 - Aumentar / disminuir la posición
 - Explicación en `exercice-arrays-explication.html`
 
 ## Cómo probarlo
 
-Abre `index.html` o la demo.
+Abre `index.html`.
 
 Demo: https://moussijoelle.github.io/-Practicar-arrays/
 
 ## Cómo lo construí
 
-- HTML + JavaScript (`app.js`)
+Índice sobre el array en `app.js`; no se pasa de los extremos.
 
 ## Cómo verificarlo
 
-Sin tests. Recorro todas las citas y compruebo los extremos del array.
+Recorro todas y compruebo que al principio/final no se rompa.
 
 ---
 
